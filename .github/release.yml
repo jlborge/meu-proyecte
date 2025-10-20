@@ -1,0 +1,21 @@
+# .github/release.yml
+
+changelog:
+  exclude:
+  labels:
+    - ignore-for-release
+  authors:
+    - octocat
+  categories:
+    - title: breaking Change
+      labels:
+        -server-majoer
+        beacking-change
+    - title: new features
+      labels:
+      -server-minor
+      new-features
+    - title: bug fuxes
+      labels:
+        -bug-fix
+    
